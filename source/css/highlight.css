@@ -2,7 +2,7 @@
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/roboto-mono-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('https://fkohrt.gitlab.io/blog-dist/fonts/RobotoMono-Regular.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('https://fkohrt.gitlab.io/blog-dist/fonts/RobotoMono-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('https://fkohrt.gitlab.io/blog-dist/fonts/RobotoMono-Regular.woff2') format('woff2'), /* Super Modern Browsers */
