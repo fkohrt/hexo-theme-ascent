@@ -9,6 +9,7 @@
        url('https://fkohrt.gitlab.io/blog-dist/fonts/RobotoMono-Regular.woff') format('woff'), /* Modern Browsers */
        url('https://fkohrt.gitlab.io/blog-dist/fonts/RobotoMono-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('https://fkohrt.gitlab.io/blog-dist/fonts/RobotoMono-Regular.svg#RobotoMono') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
 
 /* highlight */
