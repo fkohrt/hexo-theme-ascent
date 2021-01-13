@@ -62,11 +62,14 @@
       <% } %>
     </div>
     <% } %>
-    <% if (index && theme.intensedebate.enable && theme.intensedebate.acct){ %>
-      <footer class="article-footer">
+    <footer class="article-footer">
+      <% if (index && theme.intensedebate.enable && theme.intensedebate.acct){ %>
         <a href="<%- url_for(post.path) %>#idc-container">Comments</a>
-      </footer>
-    <% } %>
+      <% } %>
+      <% if (!index){ %>
+        Except where otherwise noted, content on this page is licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY-SA 4.0</a> (or later) and <a href="https://gitlab.com/fkohrt/blog">source code</a> is licensed under <a href="http://www.gnu.org/licenses/agpl.html">GNU AGPLv3</a> (or later).
+      <% } %>
+    </footer>
   </div>
 </article>
 <% if (!index){ %>
